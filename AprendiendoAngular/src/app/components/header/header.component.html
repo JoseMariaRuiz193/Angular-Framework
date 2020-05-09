@@ -1,0 +1,34 @@
+<header id="header" class="header">
+    <div class="center">
+        <!-- LOGO-->
+        <div id="logo" class="logo">
+            <img src="./assets/images/angular-icon.svg" class="app-logo" alt="Logotipo" />
+            <span id="brand" class="brand">
+                <strong>Curso</strong><strong style="color: #f13e3e;">Angular</strong>
+            </span>
+        </div>
+        <!--MENU-->
+        <nav id="menu" class="menu">
+            <ul>
+                <li>
+                    <a [routerLink]="['/home']" [routerLinkActive]="['active']">Inicio</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/blog']" [routerLinkActive]="['active']">Blog</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/formulario']" [routerLinkActive]="['active']">Formulario</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/peliculas']" [routerLinkActive]="['active']">Películas</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/pagina-de-pruebas']" [routerLinkActive]="['active']">Página</a>
+                </li>
+            </ul>
+
+        </nav>
+        <!--limpiar flotados-->
+        <div class="clearfix"></div>
+    </div>
+</header>
